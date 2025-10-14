@@ -9,7 +9,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- ✅ FontAwesome untuk ikon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
     <style>
       html {
@@ -62,36 +65,58 @@
   </head>
 
   <body class="bg-gray-50 text-gray-800 font-sans overflow-x-hidden">
-
     <!-- 🌟 NAVBAR -->
-    <nav class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 backdrop-blur-md bg-opacity-90">
-      <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <div class="text-2xl font-extrabold text-blue-700 tracking-tight">PropertiKu</div>
+    <nav
+      class="fixed top-0 left-0 right-0 bg-white shadow-md z-50 backdrop-blur-md bg-opacity-90"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div class="text-2xl font-extrabold text-blue-700 tracking-tight">
+          PropertiKu
+        </div>
         <ul class="flex space-x-6 text-gray-700 font-medium">
-          <li><a href="#home" class="hover:text-blue-600 transition">Home</a></li>
-          <li><a href="#property" class="hover:text-blue-600 transition">Property</a></li>
-          <li><a href="#testimoni" class="hover:text-blue-600 transition">Testimoni</a></li>
-          <li><a href="#social" class="hover:text-blue-600 transition">Social</a></li>
+          <li>
+            <a href="#home" class="hover:text-blue-600 transition">Home</a>
+          </li>
+          <li>
+            <a href="#property" class="hover:text-blue-600 transition"
+              >Property</a
+            >
+          </li>
+          <li>
+            <a href="#testimoni" class="hover:text-blue-600 transition"
+              >Testimoni</a
+            >
+          </li>
+          <li>
+            <a href="#social" class="hover:text-blue-600 transition">Social</a>
+          </li>
         </ul>
       </div>
     </nav>
 
-<!-- 🏠 HERO SECTION -->
+    <!-- 🏠 HERO SECTION -->
     <section
       id="home"
       class="relative h-screen flex items-center justify-center text-center parallax"
-      style="background-image:url('https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1600&auto=format&fit=crop');"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1600&auto=format&fit=crop');
+      "
     >
       <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
-      <div class="relative z-10 max-w-5xl px-6 flex flex-col md:flex-row items-center justify-between fade-in">
+      <div
+        class="relative z-10 max-w-5xl px-6 flex flex-col md:flex-row items-center justify-between fade-in"
+      >
         <!-- Hero Text -->
         <div class="text-white text-left md:w-2/3">
           <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
             Temukan Hunian <span class="text-blue-400">Impianmu</span> Hari Ini
           </h1>
           <p class="text-gray-200 text-lg mb-10">
-            Kami bantu Anda mendapatkan properti terbaik dengan harga dan lokasi ideal.
+            Kami bantu Anda mendapatkan properti terbaik dengan harga dan lokasi
+            ideal.
           </p>
           <a
             href="https://wa.me/628123456789"
@@ -112,14 +137,24 @@
             class="w-28 h-28 mx-auto rounded-full object-cover shadow-md border-4 border-white mb-4"
           />
           <h3 class="text-xl font-bold text-center mb-1">Rizky Saputra</h3>
-          <p class="text-center text-gray-500 text-sm mb-4">Konsultan Properti</p>
+          <p class="text-center text-gray-500 text-sm mb-4">
+            Konsultan Properti
+          </p>
           <p class="text-sm text-center mb-4">
-            Dengan pengalaman lebih dari 5 tahun di industri properti, Rizky siap membantu Anda menemukan hunian impian dengan proses cepat dan aman.
+            Dengan pengalaman lebih dari 5 tahun di industri properti, Rizky
+            siap membantu Anda menemukan hunian impian dengan proses cepat dan
+            aman.
           </p>
           <div class="flex justify-center space-x-4 text-xl text-blue-600">
-            <a href="https://wa.me/628123456789" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:rizky@propertiku.id"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://wa.me/628123456789" target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="mailto:rizky@propertiku.id"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
           </div>
         </div>
       </div>
@@ -128,11 +163,18 @@
     <!-- 🏡 PRODUCT SECTION -->
     <section id="property" class="py-24 bg-white fade-in">
       <div class="max-w-7xl mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Properti Unggulan</h2>
+        <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">
+          Properti <span class="text-blue-600">Unggulan</span>
+        </h2>
         <div class="flex overflow-x-auto scroll-x space-x-6 pb-6">
           <!-- Card 1 -->
-          <div class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500">
-            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop" class="w-full h-56 object-cover" />
+          <div
+            class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop"
+              class="w-full h-56 object-cover"
+            />
             <div class="p-5">
               <h3 class="text-xl font-semibold mb-2">Rumah Minimalis</h3>
               <p class="text-gray-600 mb-3">3 Kamar • 2 Kamar Mandi</p>
@@ -140,8 +182,13 @@
             </div>
           </div>
           <!-- Card 2 -->
-          <div class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500">
-            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=800&auto=format&fit=crop" class="w-full h-56 object-cover" />
+          <div
+            class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=800&auto=format&fit=crop"
+              class="w-full h-56 object-cover"
+            />
             <div class="p-5">
               <h3 class="text-xl font-semibold mb-2">Apartemen Modern</h3>
               <p class="text-gray-600 mb-3">2 Kamar • Kolam Renang</p>
@@ -149,8 +196,13 @@
             </div>
           </div>
           <!-- Card 3 -->
-          <div class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500">
-            <img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=800&auto=format&fit=crop" class="w-full h-56 object-cover" />
+          <div
+            class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=800&auto=format&fit=crop"
+              class="w-full h-56 object-cover"
+            />
             <div class="p-5">
               <h3 class="text-xl font-semibold mb-2">Rumah Klasik</h3>
               <p class="text-gray-600 mb-3">4 Kamar • Garasi</p>
@@ -158,8 +210,13 @@
             </div>
           </div>
           <!-- Card 4 -->
-          <div class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500">
-            <img src="https://images.unsplash.com/photo-1598062568618-29c189c7f303?q=80&w=800&auto=format&fit=crop" class="w-full h-56 object-cover" />
+          <div
+            class="scroll-item min-w-[320px] bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-500"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1598062568618-29c189c7f303?q=80&w=800&auto=format&fit=crop"
+              class="w-full h-56 object-cover"
+            />
             <div class="p-5">
               <h3 class="text-xl font-semibold mb-2">Ruko Strategis</h3>
               <p class="text-gray-600 mb-3">Lokasi pusat kota</p>
@@ -170,21 +227,77 @@
       </div>
     </section>
 
+    <!-- VIDEO TOUR (YOUTUBE) -->
+    <section id="video-tour" class="py-20 bg-gray-100 fade-in">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold text-gray-800 mb-6">
+          🎥 Tur Properti <span class="text-blue-600">Virtual</span>
+        </h2>
+        <p class="text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+          Lihat kemewahan dan detail properti unggulan kami melalui video tur
+          profesional. Rasakan atmosfer elegan yang kami hadirkan sebelum Anda
+          mengunjungi lokasi.
+        </p>
+
+        <!-- Video Wrapper -->
+        <div
+          class="relative max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-2xl border border-gray-200"
+        >
+          <div class="aspect-w-16 aspect-h-9">
+            <iframe
+              class="w-full h-[480px]"
+              src="https://www.youtube.com/embed/qr4rFw-PVwA?si=7AJHXqLYBKqPg73Q&autoplay=0&rel=0&amp;start=240"
+              title="Tur Properti Virtual"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="mt-10">
+          <a
+            href="https://wa.me/6281234567890?text=Halo%2C+saya+tertarik+dengan+properti+dalam+video+tur%2C+bolehkah+saya+menjadwalkan+kunjungan%3F"
+            target="_blank"
+            class="inline-block bg-blue-600 hover:bg-amber-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg transition-all duration-300"
+          >
+            <i class="fab fa-whatsapp mr-2"></i> Jadwalkan Kunjungan Sekarang
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- 💬 TESTIMONI -->
     <section id="testimoni" class="py-24 bg-gray-50 fade-in">
       <div class="max-w-7xl mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-10">Testimoni Pelanggan</h2>
+        <h2 class="text-4xl font-bold text-center mb-10">
+          Testimoni Pelanggan
+        </h2>
         <div class="flex overflow-x-auto scroll-x space-x-6">
-          <div class="scroll-item min-w-[320px] bg-white shadow-lg rounded-2xl p-6 border-t-4 border-blue-500">
-            <p class="italic text-gray-700 mb-4">“Proses pembelian cepat dan pelayanan sangat profesional.”</p>
+          <div
+            class="scroll-item min-w-[320px] bg-white shadow-lg rounded-2xl p-6 border-t-4 border-blue-500"
+          >
+            <p class="italic text-gray-700 mb-4">
+              “Proses pembelian cepat dan pelayanan sangat profesional.”
+            </p>
             <div class="font-semibold text-blue-600">— Budi, Jakarta</div>
           </div>
-          <div class="scroll-item min-w-[320px] bg-white shadow-lg rounded-2xl p-6 border-t-4 border-blue-500">
-            <p class="italic text-gray-700 mb-4">“Properti sesuai dengan foto dan deskripsi. Terpercaya!”</p>
+          <div
+            class="scroll-item min-w-[320px] bg-white shadow-lg rounded-2xl p-6 border-t-4 border-blue-500"
+          >
+            <p class="italic text-gray-700 mb-4">
+              “Properti sesuai dengan foto dan deskripsi. Terpercaya!”
+            </p>
             <div class="font-semibold text-blue-600">— Sinta, Bandung</div>
           </div>
-          <div class="scroll-item min-w-[320px] bg-white shadow-lg rounded-2xl p-6 border-t-4 border-blue-500">
-            <p class="italic text-gray-700 mb-4">“Agen sangat membantu dalam negosiasi harga.”</p>
+          <div
+            class="scroll-item min-w-[320px] bg-white shadow-lg rounded-2xl p-6 border-t-4 border-blue-500"
+          >
+            <p class="italic text-gray-700 mb-4">
+              “Agen sangat membantu dalam negosiasi harga.”
+            </p>
             <div class="font-semibold text-blue-600">— Andi, Surabaya</div>
           </div>
         </div>
@@ -192,22 +305,49 @@
     </section>
 
     <!-- 🌐 SOCIAL MEDIA -->
-    <section id="social" class="py-20 bg-blue-900 text-white fade-in text-center">
+    <section
+      id="social"
+      class="py-20 bg-blue-900 text-white fade-in text-center"
+    >
       <h3 class="text-3xl font-bold mb-8">Ikuti Kami di Media Sosial</h3>
       <div class="flex justify-center gap-10 text-4xl">
-        <a href="https://instagram.com" target="_blank" class="hover:text-pink-400 transition"><i class="fab fa-instagram"></i></a>
-        <a href="https://facebook.com" target="_blank" class="hover:text-blue-400 transition"><i class="fab fa-facebook"></i></a>
-        <a href="https://tiktok.com" target="_blank" class="hover:text-gray-200 transition"><i class="fab fa-tiktok"></i></a>
-        <a href="https://youtube.com" target="_blank" class="hover:text-red-400 transition"><i class="fab fa-youtube"></i></a>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          class="hover:text-pink-400 transition"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          class="hover:text-blue-400 transition"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a
+          href="https://tiktok.com"
+          target="_blank"
+          class="hover:text-gray-200 transition"
+          ><i class="fab fa-tiktok"></i
+        ></a>
+        <a
+          href="https://youtube.com"
+          target="_blank"
+          class="hover:text-red-400 transition"
+          ><i class="fab fa-youtube"></i
+        ></a>
       </div>
     </section>
 
     <!-- ⚓ FOOTER -->
     <footer class="bg-gray-900 text-gray-300 py-10 fade-in">
-      <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6"
+      >
         <div>
           <h4 class="text-2xl font-semibold text-white">PropertiKu</h4>
-          <p class="text-gray-400">Agen properti terpercaya untuk kebutuhan hunian Anda.</p>
+          <p class="text-gray-400">
+            Agen properti terpercaya untuk kebutuhan hunian Anda.
+          </p>
         </div>
         <div class="flex gap-6">
           <a href="#home" class="hover:text-blue-400">Home</a>
@@ -219,6 +359,5 @@
         </div>
       </div>
     </footer>
-
   </body>
 </html>
